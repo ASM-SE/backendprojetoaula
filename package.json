@@ -1,0 +1,35 @@
+{
+  "name": "backendprojetoaula",
+  "version": "1.0.0",
+  "description": "Projeto da aula de desenvolvimento web.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASM-SE/backendprojetoaula.git"
+  },
+  "keywords": [
+    "web",
+    "backend"
+  ],
+  "author": "Anderson Marcolino",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ASM-SE/backendprojetoaula/issues"
+  },
+  "homepage": "https://github.com/ASM-SE/backendprojetoaula#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
